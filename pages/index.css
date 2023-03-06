@@ -1,0 +1,19 @@
+/* Нормализация стилей */
+@import url('../vendor/normalize.css');
+/* Шрифты */
+@import url('../vendor/fonts/fonts.css');
+/* Блок root */
+@import url('../blocks/root/root.css');
+/* Блок content */
+@import url('../blocks/content/content.css');
+/* Миксы */
+@import url('../blocks/link/link.css');
+/* Блок header*/
+@import url('../blocks/header/header.css');
+
+/* Блок footer*/
+@import url('../blocks/footer/footer.css');
+
+
+
+
