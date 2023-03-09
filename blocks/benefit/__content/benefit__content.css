@@ -1,0 +1,11 @@
+.benefit__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+@media screen and (max-width: 767px) {
+    .benefit__content {
+        row-gap: 20px;
+    }
+}

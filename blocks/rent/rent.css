@@ -1,0 +1,32 @@
+.rent {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 588px;
+    margin: 0 auto;
+    column-gap: 24px;
+    padding: 80px 120px 96px;
+}
+
+@media screen and (max-width: 1279px) {
+    .rent {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .rent {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .rent {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 10px 0 20px;
+    }
+}

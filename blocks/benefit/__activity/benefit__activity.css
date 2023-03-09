@@ -1,0 +1,29 @@
+.benefit__activity {
+    display: grid;
+    grid-template-columns: 1fr 384px;
+    margin: 0;
+    column-gap: 126px;
+    padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .benefit__activity {
+        column-gap: 90px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .benefit__activity {
+        column-gap: 50px;
+        /* grid-template-columns: 1fr 1fr; */
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .benefit__activity {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        /* grid-template-columns: 1fr; */
+    }
+}

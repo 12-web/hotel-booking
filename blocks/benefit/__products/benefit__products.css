@@ -1,0 +1,32 @@
+.benefit__products {
+    display: grid;
+    grid-template-columns: 384px 1fr;
+    margin: 0;
+    column-gap: 126px;
+    padding: 0;
+}
+
+/* @media screen and (max-width: 1279px) {
+    .rent {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .rent {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+} */
+
+@media screen and (max-width: 767px) {
+    .benefit__products {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        /* grid-template-columns: 1fr; */
+    }
+}

@@ -1,0 +1,11 @@
+.rent__btn {
+    width: 180px;
+    height: 51px;
+}
+
+@media screen and (max-width: 767px) {
+    .rent__btn {
+    /* width: 140px;
+    height: 40px; */
+    }
+}

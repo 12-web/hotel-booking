@@ -16,7 +16,43 @@
 @import url('../blocks/btn/btn.css');
 /* Блок header*/
 @import url('../blocks/header/header.css');
-
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__section-title/header__section-title.css');
+@import url('../blocks/header/__link-btn/header__link-btn.css');
+@import url('../blocks/header/__btn/header__btn.css');
+@import url('../blocks/header/__nav/header__nav.css');
+@import url('../blocks/header/__nav-item/header__nav-item.css');
+/* Блок rent*/
+@import url('../blocks/rent/rent.css');
+@import url('../blocks/rent/__info/rent__info.css');
+@import url('../blocks/rent/__image-container/rent__image-container.css');
+@import url('../blocks/rent/__section-title/rent__section-title.css');
+@import url('../blocks/rent/__text/rent__text.css');
+@import url('../blocks/rent/__btn/rent__btn.css');
+@import url('../blocks/rent/__btn-link/rent__btn-link.css');
+@import url('../blocks/rent/__image/rent__image.css');
+@import url('../blocks/rent/__image/_down/rent__image_down.css');
+/* Блок guide*/
+@import url('../blocks/guide/guide.css');
+@import url('../blocks/guide/__image-container/guide__image-container.css');
+@import url('../blocks/guide/__image/guide__image.css');
+@import url('../blocks/guide/__info/guide__info.css');
+@import url('../blocks/guide/__section-title/guide__section-title.css');
+@import url('../blocks/guide/__text/guide__text.css');
+@import url('../blocks/guide/__btn/guide__btn.css');
+/* Блок benefits*/
+@import url('../blocks/benefit/benefit.css');
+@import url('../blocks/benefit/__activity/benefit__activity.css');
+@import url('../blocks/benefit/__activity/_image/benefit__activity_image.css');
+@import url('../blocks/benefit/__activity/_section-title/benefit__activity_section-title.css');
+@import url('../blocks/benefit/__activity/_text/benefit__activity_text.css');
+@import url('../blocks/benefit/__activity/_info/benefit__activity_info.css');
+@import url('../blocks/benefit/__content/benefit__content.css');
+@import url('../blocks/benefit/__products/benefit__products.css');
+@import url('../blocks/benefit/__products/_image/benefit__products_image.css');
+@import url('../blocks/benefit/__products/_section-title/benefit__products_section-title.css');
+@import url('../blocks/benefit/__products/_text/benefit__products_text.css');
+@import url('../blocks/benefit/__products/_info/benefit__products_info.css');
 /* Блок footer*/
 @import url('../blocks/footer/footer.css');
 
