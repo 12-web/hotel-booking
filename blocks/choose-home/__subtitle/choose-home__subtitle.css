@@ -6,6 +6,6 @@
 
 @media screen and (max-width: 767px) {
   .choose-home__subtitle {
-    width: 90%;
+    width: calc(100% - 16px*2);
   }
 }
