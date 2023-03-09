@@ -11,7 +11,7 @@
   </head>
   <body class="root">
     <div class="page">
-      
+
       <header class="header">
         <h2 class="section-title header__section-title">HotelBooking</h2>
         <nav>
@@ -31,9 +31,9 @@
           <button class="btn header__btn">Бронировать</button>
         </form>
       </header>
-      
+
       <main class="content">
-        
+
         <!-- Блок RENT -->
 
         <section class="rent">
@@ -68,7 +68,7 @@
 
         <section class="benefit">
           <div class="benefit__content">
-            
+
             <div class="benefit__activity">
               <div class="benefit__activity_info">
                 <h2 class="section-title benefit__activity_section-title">Активности</h2>
@@ -76,7 +76,7 @@
               </div>
               <img class="benefit__activity_image" src="./images/glasses.jpg" alt="поднятые бокалы">
             </div>
-            
+
             <div class="benefit__products">
               <img class="benefit__products_image" src="./images/food.jpg" alt="тарелка с едой">
               <div class="benefit__products_info">
@@ -87,10 +87,152 @@
 
           </div>
         </section>
-
+        <section class="interiors">
+          <h2 class="interiors__title section-title">Наши интерьеры</h2>
+          <ul class="interiors__list">
+            <li class="interiors__item interiors__item_active">
+              <img src="./images/living-room_beige.jpg" alt="Бежевая гостинная" class="interiors__image">
+            </li>
+            <li class="interiors__item">
+              <img src="./images/living-room_brown.jpg" alt="Коричневая гостинная" class="interiors__image">
+            </li>
+            <li class="interiors__item">
+              <img src="./images/kitchen.jpg"" alt="Кухня" class="interiors__image">
+            </li>
+            <li class="interiors__item">
+              <img src="./images/living-room_green.jpg" alt="Зеленая гостинная" class="interiors__image">
+            </li>
+          </ul>
+          <ul class="interiors__slider-points slider-points">
+            <li><span class="slider-point slider-point_theme_dark"></span></li>
+            <li><span class="slider-point slider-point_theme_dark slider-point_active"></span></li>
+            <li><span class="slider-point slider-point_theme_dark"></span></li>
+            <li><span class="slider-point slider-point_theme_dark"></span></li>
+          </ul>
+        </section>
+        <section class="choose-home">
+          <h2 class="choose-home__title section-title">Выберите ваш дом</h2>
+          <p class="choose-home__subtitle text">У нас есть дома для любых мероприятий. Для большой компании у нас есть
+            двухэтажный дом на самом краю леса.</p>
+          <form class="choose-home__button" action="#" terget="_blank">
+            <button class="btn">Подробнее</button>
+          </form>
+          <ul class="choose-home__list">
+            <li class="choose-home__item">
+              <img src="./images/small-home.png" alt="Маленький дом" class="choose-home__image">
+              <div class="choose-home__item-description">
+                <h3 class="choose-home__item-title">Маленький домик</h3>
+                <p class="choose-home__item-text text">Уютный коттедж с  3 спальнями и  бильярдом.</p>
+                <a class="choose-home__link link" href="">Подробнее <span class="choose-home__span-arrow">&#8594;</span></a>
+            </div>
+            </li>
+            <li class="choose-home__item">
+              <img src="./images/large-home.png" alt="Большой дом" class="choose-home__image">
+                <div class="choose-home__item-description">
+                  <h3 class="choose-home__item-title">Большой дом</h3>
+                  <p class="choose-home__item-text text">266 кв.м. с тремя спальнями, четырьмя санузлами, камином и
+                    бильярдом.</p>
+                  <a class="choose-home__link link" href="">Подробнее <span class="choose-home__span-arrow">&#8594;</span></a>
+                </div>
+            </li>
+            <li class="choose-home__item">
+              <img src="./images/two-storey-house.png" alt="Двухэтажный дом" class="choose-home__image">
+              <div class="choose-home__item-description">
+                <h3 class="choose-home__item-title">Двухэтажный дом</h3>
+                <p class="choose-home__item-text text">Коттедж с сауной, четырьмя спальнями и бильярдом.
+                Идеально подойдет для полноценного празднования нового года.</p>
+                <a class="choose-home__link link" href="">Подробнее<span class="choose-home__span-arrow">&#8594;</span></a>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="customer-reviews">
+          <h2 class="customer-reviews__title section-title">Отзывы</h2>
+          <ul class="customer-reviews__list">
+            <li class="customer-reviews__item">
+              <figure class="customer-reviews__item-content">
+                <img src="./images/user-image.png" alt="Фото Ирины Ивановой" class="customer-reviews__image">
+                <blockquote class="customer-reviews__quote-container">
+                    <p class="customer-reviews__quote text">Мы очень долго искали коттедж, чтобы отметить день рождение.
+                      Все очень понравилось. Комфортно, уютно,не дом, а сказка. Все очень понравилось, хочется приехать
+                      еще сюда не один раз</p>
+                </blockquote>
+                <figcaption class="customer-reviews__caption">Ирина Иванова</figcaption>
+            </figure>
+            </li>
+          </ul>
+          <ul class="customer-reviews__slider-points slider-points">
+            <li><span class="slider-point"></span></li>
+            <li><span class="slider-point slider-point_active"></span></li>
+            <li><span class="slider-point"></span></li>
+            <li><span class="slider-point"></span></li>
+          </ul>
+        </section>
       </main>
       <footer class="footer">
-        
+        <div class="footer__columns">
+          <div class="footer__column footer__column_content_copyright">
+            <a href="#" class="footer__column-link">
+              <img src="./images/logo-footer.svg" alt="Логотип компании" class="footer__logo">
+            </a>
+            <p class="footer__text">Загородный отдых с замечательными видами</p>
+            <nav class="footer__social-icons-container">
+              <ul class="footer__social-icons">
+                <li class="footer__social-icon">
+                  <a href="#" target="_blank" class="footer__column-link">
+                    <img src="./images/twitter-logo.svg" alt="Логотип Твиттер">
+                  </a>
+                </li>
+                <li class="footer__social-icon">
+                  <a href="#" class="footer__column-link">
+                    <img src="./images/vk-logo.svg" alt="Логотип Вконтакте" target="_blank">
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <nav class="footer__column footer__column_content_houses">
+            <h3 class="footer__column-heading">Дома</h3>
+            <ul class="footer__column-links">
+              <li>
+                <a href="" class="footer__column-link link" target="_blank">Маленький домик</a>
+              </li>
+              <li>
+                <a href="" class="footer__column-link link" target="_blank">Большой дом</a>
+              </li>
+              <li>
+                <a href="" class="footer__column-link link" target="_blank">Двухэтажный дом</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer__column footer__column_content_booking">
+            <h3 class="footer__column-heading">Бронирование</h3>
+            <ul class="footer__column-links">
+              <li>
+                <a href="" class="footer__column-link link" target="_blank">Оформление</a>
+              </li>
+              <li>
+                <a href="" class="footer__column-link link" target="_blank">Оплата</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer__column footer__column_content_contacts">
+            <h3 class="footer__column-heading">Контакты</h3>
+            <ul class="footer__column-links">
+              <li>
+                <a href="tel:88005553535" class="footer__column-link link" target="_blank">8-800-555-35-35</a>
+              </li>
+              <li>
+                <a href="mailto:email@yandex.ru?subject=HotelBooking user-message" class="footer__column-link link" target="_blank">email@yandex.ru</a>
+              </li>
+              <li>
+                <a href="https://yandex.ru/maps/-/CCUKRUCuKA" class="footer__column-link link" target="_blank">Деревня Кимжа, Архангельская область</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+
       </footer>
   </div>
   </body>

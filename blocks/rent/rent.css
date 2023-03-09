@@ -10,16 +10,16 @@
 @media screen and (max-width: 1279px) {
     .rent {
         grid-template-columns: 1fr 1fr;
-        padding-left: 80px;
-        padding-right: 80px;
+        max-width: calc(100% - 80px*2);
+        margin: 0 auto;
+        padding: 80px 0 96px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .rent {
         grid-template-columns: 1fr 1fr;
-        padding-left: 50px;
-        padding-right: 50px;
+        max-width: calc(100% - 50px*2);
     }
 }
 
@@ -28,5 +28,6 @@
         display: flex;
         flex-direction: column-reverse;
         padding: 10px 0 20px;
+        max-width: 100%;
     }
 }

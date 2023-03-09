@@ -6,21 +6,17 @@
     padding: 0;
 }
 
-/* @media screen and (max-width: 1279px) {
-    .rent {
-        grid-template-columns: 1fr 1fr;
-        padding-left: 80px;
-        padding-right: 80px;
+@media screen and (max-width: 1279px) {
+    .benefit__products {
+      column-gap: 100px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .rent {
-        grid-template-columns: 1fr 1fr;
-        padding-left: 50px;
-        padding-right: 50px;
+    .benefit__products {
+      column-gap: 70px;
     }
-} */
+}
 
 @media screen and (max-width: 767px) {
     .benefit__products {

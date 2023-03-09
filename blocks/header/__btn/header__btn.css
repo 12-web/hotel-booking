@@ -1,12 +1,11 @@
 .header__btn {
-    max-width: 136px;
-    max-height: 47px;
+    padding: 14px 16px;
 }
 
 @media screen and (max-width: 767px) {
     .header__btn {
         margin-top: 10px;
-        max-width: 130px;
-        max-height: 37px;
+        display: flex;
+        justify-self: center;
     }
 }
