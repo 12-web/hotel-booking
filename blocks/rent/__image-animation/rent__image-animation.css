@@ -1,4 +1,4 @@
-@-webkit-keyframes slide-second {
+@-webkit-keyframes landing-animation {
   0% {
   -webkit-transform: translateY(-1000px);
   transform: translateY(-1000px);
@@ -11,7 +11,7 @@
   }
 }
 
-@keyframes slide-second {
+@keyframes landing-animation {
   0% {
   -webkit-transform: translateY(-1000px);
   transform: translateY(-1000px);
@@ -24,9 +24,7 @@
   }
 }
 
-.slide__second {
-  -webkit-animation: slide-second 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: slide-second 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation-delay: .2s;
+.rent__image-animation {
+  -webkit-animation: landing-animation 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: landing-animation 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-

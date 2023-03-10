@@ -1,29 +1,28 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1279px) {
-    .header {
-        padding-left: 80px;
-        padding-right: 80px;
-    }
+  .header {
+    width: calc(100% - 80px*2);
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .header {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+  .header {
+    width: calc(100% - 50px*2);
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .header {
-        align-items: center;
-        padding: 16px;
-        flex-direction: column;
-        gap: 5px;
-    }
+  .header {
+    width: calc(100% - 16px*2);
+    padding: 16px 0;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+  }
 }

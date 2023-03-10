@@ -1,5 +1,4 @@
 .benefit__item {
-  /* grid-template-columns: 384px 1fr; */
   display: flex;
   align-items: center;
   margin: 0;
@@ -15,7 +14,7 @@
 @media screen and (max-width: 1279px) {
   .benefit__item {
     column-gap: 90px;
-    }
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -35,7 +34,7 @@
 
 @media screen and (max-width: 600px) {
   .benefit__item {
-      width: 100%;
-      border-radius: 12px;
+    width: 100%;
+    border-radius: 12px;
   }
 }

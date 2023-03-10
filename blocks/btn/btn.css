@@ -8,9 +8,10 @@
   line-height: 1.19;
   border: 0;
   cursor: pointer;
-  transition: opacity .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .btn:hover {
-  opacity: .8;
+  background-color: #213988;
+  box-shadow: 0 0 5px #2a2929;
 }

@@ -12,10 +12,10 @@
   .footer__text {
     width: 60%;
   }
- }
+}
 
 @media screen and (max-width: 600px) {
   .footer__text {
     text-align: center;
   }
- }
+}

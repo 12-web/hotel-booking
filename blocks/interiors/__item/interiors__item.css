@@ -1,4 +1,5 @@
 .interiors__item {
   cursor: pointer;
   max-height: 193px;
+  overflow: hidden;
 }
