@@ -7,7 +7,7 @@
   display: flex;
   align-self: baseline;
   margin: 32px 0 0;
-  column-gap: 6px;
+  column-gap: 10px;
   transition: column-gap .4s ease-in-out;
 }
 

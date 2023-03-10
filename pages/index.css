@@ -81,7 +81,7 @@
 @import url('../blocks/choose-home/__text/choose-home__text.css');
 @import url('../blocks/choose-home/__button/choose-home__button.css');
 @import url('../blocks/choose-home/__link/choose-home__link.css');
-
+@import url('../blocks/choose-home/__img-arrow/choose-home__img-arrow.css');
 /* Блок customer-reviews*/
 @import url('../blocks/customer-reviews/customer-reviews.css');
 @import url('../blocks/customer-reviews/__title/customer-reviews__title.css');
